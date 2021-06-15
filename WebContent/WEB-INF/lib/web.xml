@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+<servlet>
+  		<servlet-name>generatereport</servlet-name>
+  		<servlet-class>com.car.Generatereport</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+   		<servlet-name>generatereport</servlet-name>
+  		<url-pattern>/Generatereport</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  		<servlet-name>table</servlet-name>
+  		<servlet-class>com.car.Table</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+   		<servlet-name>Table</servlet-name>
+  		<url-pattern>/Table</url-pattern>
+  </servlet-mapping>
+  
+
+ <servlet>
+  		<servlet-name>register</servlet-name>
+  		<servlet-class>com.farmer.Register</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+   		<servlet-name>register</servlet-name>
+  		<url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  		<servlet-name>addcart</servlet-name>
+  		<servlet-class>com.farmer.AddCart</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+   		<servlet-name>addcart</servlet-name>
+  		<url-pattern>/AddCart</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  		<servlet-name>cart</servlet-name>
+  		<servlet-class>com.farmer.Cart</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+   		<servlet-name>cart</servlet-name>
+  		<url-pattern>/Cart</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  		<servlet-name>store</servlet-name>
+  		<servlet-class>com.farmer.Store</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+   		<servlet-name>store</servlet-name>
+  		<url-pattern>/Store</url-pattern>
+  </servlet-mapping>
+   <servlet>
+  		<servlet-name>login</servlet-name>
+  		<servlet-class>com.farmer.Login</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+   		<servlet-name>login</servlet-name>
+  		<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  		<servlet-name>adminLogin</servlet-name>
+  		<servlet-class>com.farmer.AdminLogin</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+   		<servlet-name>adminLogin</servlet-name>
+  		<url-pattern>/AdminLogin</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  		<servlet-name>updatecat</servlet-name>
+  		<servlet-class>com.farmer.UpdateCat</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+   		<servlet-name>updatecat</servlet-name>
+  		<url-pattern>/UpdateCat</url-pattern>
+  </servlet-mapping>
+   <servlet>
+  		<servlet-name>feedback</servlet-name>
+  		<servlet-class>com.farmer.Feedback</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+   		<servlet-name>feedback</servlet-name>
+  		<url-pattern>/Feedback</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+</web-app>  
